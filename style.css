@@ -170,3 +170,88 @@
     margin: 24px 0 32px 0;
     /* 162.5% */
 }
+
+/* Features sections */
+
+.features {
+    margin: 10vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.features-title {
+    width: 460px;
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    border-left: 7px solid #FF900E;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding-left: 30px;
+}
+
+.features-description {
+    width: 586px;
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0 30px 0;
+    /* 162.5% */
+}
+
+.card{
+    width: 586px;
+    height: 171px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    padding: 1rem 1.4rem 1rem 1rem;
+}
+.card-title {
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 1rem 1rem .2rem 1rem;
+}
+.card-description{
+    color:  #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 1rem; /* 162.5% */
+}
+
+.features-image{
+    margin-left: 92px;
+}
+
+.experience{
+    width: 342px;
+    height: 200px;
+    border-radius: 8px;
+    background: #FF900E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 0;
+    bottom: 90px;
+
+}
+.exp-title{
+    color: #FFF;
+font-size: 65px;
+font-weight: 700;
+line-height: 70px; /* 107.692% */
+}
+
+.exp{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 40px;
+}
