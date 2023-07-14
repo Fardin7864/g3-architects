@@ -314,3 +314,15 @@ margin-top: 24px;
 }
 
 /* Footer Start */
+.add-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.facts-item1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+}
